@@ -1,0 +1,1 @@
+document.querySelectorAll(".riga_materia_componente p").forEach((e)=>{if(e.innerText===""){e.innerText="!"}}) 

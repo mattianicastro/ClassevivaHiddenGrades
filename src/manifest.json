@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Classeviva Hidden Grades",
+    "description": "Some schools show grades after a certain time, this extension shows if they are negative or positive (red/green) before that time",
+    "version": "1.0",
+    "content_scripts": [
+        {
+          "matches": ["https://web.spaggiari.eu/cvv/app/default/genitori_voti.php"],
+          "js": ["content-script.js"]
+        }
+      ]
+  }
